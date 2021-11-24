@@ -1,0 +1,23 @@
+# HTML
+csl: assets/frontiers.csl
+link-citations: true
+
+# Latex
+geometry: "margin=1in"
+fontfamily: "times"
+fontsize: "11pt"
+header-includes:
+    - \usepackage{setspace}
+    - \onehalfspacing
+    - \usepackage{titling}
+    - \pretitle{\begin{center}\begin{bfseries}\begin{huge}}
+    - \posttitle{\end{huge}\end{bfseries}\end{center}}
+    - \renewcommand{\linethickness}{0.4pt}
+    - \usepackage{xcolor}
+    - \definecolor{commentsColor}{rgb}{0.197495, 0.197587, 0.197464}
+    - \definecolor{keywordsColor}{rgb}{0.000000, 0.000000, 0.635294}
+    - \definecolor{stringColor}{rgb}{0.558215, 0.000000, 0.135316}
+    - \lstset{backgroundcolor=\color{white}, basicstyle=\footnotesize\ttfamily, breakatwhitespace=false, breaklines=true, captionpos=none, keepspaces=true, keywordstyle=\color{keywordsColor}\bfseries, language=Python, tabsize=4}
+
+hidelinks: false
+linkcolor: blue
