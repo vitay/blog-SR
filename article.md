@@ -1,8 +1,7 @@
 ---
 title: Successor Representations
 subtitle: An introduction
-author: Julien Vitay
-date: TU Chemnitz
+author: Julien Vitay - TU Chemnitz
 
 abstract: Successor representations (SR) attract a lot of attention these days, both in the neuroscientific and machine learning / deep RL communities. This post is intended to explain the main difference between SR and model-free / model-based RL algorithms and to point out its usefulness to understand goal-directed behavior.
 
