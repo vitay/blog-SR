@@ -9,11 +9,18 @@
   margin: 0 auto;
   padding: 45px;
   font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 120%;
+  font-size: 18px;
   line-height: 2.0;
   word-wrap: break-word;
 }
 
+.markdown-body .summary {
+
+  margin: auto;
+  width: 70%;
+  font-size: 100%;
+  line-height: 1.5;
+}
 .markdown-body .author {
   text-align: center;
   font-style: italic;
