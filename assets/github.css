@@ -4,7 +4,7 @@
 .markdown-body {
   box-sizing: border-box;
   text-align: justify;
-  min-width: 200px;
+  min-width: 500px;
   max-width: 70%;
   margin: 0 auto;
   padding: 45px;
@@ -14,6 +14,16 @@
   word-wrap: break-word;
 }
 
+.markdown-body .author {
+  text-align: center;
+  font-style: italic;
+  font-size: 120%;
+}
+
+.markdown-body .date {
+  text-align: center;
+  font-size: 120%;
+}
 
 .markdown-body .references {
   text-align: left;
@@ -21,6 +31,11 @@
   line-height: 1.5;
   word-wrap: break-word;
 }
+
+.markdown-body .csl-entry {
+  padding-bottom: 1em;
+}
+
 
 .markdown-body .embed-container {
   overflow: hidden;

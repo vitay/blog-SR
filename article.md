@@ -2,31 +2,13 @@
 title: Successor Representations
 subtitle: An introduction
 author: Julien Vitay
+date: TU Chemnitz
 
-summary: Successor representations (SR) attract a lot of attention these days, both in the neuroscientific and machine learning / deep RL communities. This post is intended to explain the main difference between SR and model-free / model-based RL algorithms and to point out its usefulness to understand goal-directed behavior.
+abstract: Successor representations (SR) attract a lot of attention these days, both in the neuroscientific and machine learning / deep RL communities. This post is intended to explain the main difference between SR and model-free / model-based RL algorithms and to point out its usefulness to understand goal-directed behavior.
 
 bibliography: 
   - biblio.bib
 ---
-
-Just some code:
-
-```python
-from ANNarchy import *
-
-setup(dt=1.0)
-
-pop = Population(1000, Izhikevich)
-
-compile()
-
-for i in range(50):
-    print(i)
-```
-
-not great in latex
-
-<div class='embed-container'><iframe src='https://www.youtube.com/embed/qhUvQiKec2U' frameborder='0' allowfullscreen></iframe></div>
 
 # Motivation
 

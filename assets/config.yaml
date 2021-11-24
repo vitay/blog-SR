@@ -10,8 +10,8 @@ header-includes:
     - \usepackage{setspace}
     - \onehalfspacing
     - \usepackage{titling}
-    - \pretitle{\begin{center}\begin{bfseries}\begin{huge}}
-    - \posttitle{\end{huge}\end{bfseries}\end{center}}
+    - \pretitle{\begin{center}\begin{bfseries}\begin{Large}}
+    - \posttitle{\end{Large}\end{bfseries}\end{center}}
     - \renewcommand{\linethickness}{0.4pt}
     - \usepackage{xcolor}
     - \definecolor{commentsColor}{rgb}{0.197495, 0.197587, 0.197464}
